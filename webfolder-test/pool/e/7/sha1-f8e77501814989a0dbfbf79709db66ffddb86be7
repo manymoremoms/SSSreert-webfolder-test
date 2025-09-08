@@ -1,0 +1,151 @@
+class ListNode {
+  constructor(value,state) {
+    this.value = value;    // 节点值
+    this.state = state;
+    this.parent = null;    // 父节点
+    this.firstChild = null; // 第一个子节点
+    this.leftSibling = null; // 左兄弟节点
+    this.rightSibling = null; // 右兄弟节点
+  }
+
+  // 添加子节点
+  addChild(value,state) 
+  {
+    const newChild = new ListNode(value,state);
+    newChild.parent = this;
+    
+    if (!this.firstChild) 
+    {
+      this.firstChild = newChild;
+    } 
+    else 
+    {
+      let lastChild = this.firstChild;
+      while (lastChild.rightSibling) 
+      {
+        lastChild = lastChild.rightSibling;
+      }
+      newChild.leftSibling = lastChild;
+      lastChild.rightSibling = newChild;
+    }
+    
+    return newChild;
+  }
+  
+  setState(state)
+  {
+    this.state = state; 
+  }
+
+  addRightSibling(value,state) 
+  {
+    if (!this.parent) return null; // 根节点没有兄弟
+    
+    const newSibling = new ListNode(value,state);
+    newSibling.parent = this.parent;
+    
+    // 调整兄弟指针
+    newSibling.leftSibling = this;
+    newSibling.rightSibling = this.rightSibling;
+    
+    if (this.rightSibling) 
+    {
+      this.rightSibling.leftSibling = newSibling;
+    }
+    this.rightSibling = newSibling;
+    
+    return newSibling;
+  }
+
+  // 获取前一个兄弟节点
+  getPreviousSibling() {
+    return this.leftSibling;
+  }
+
+  // 获取下一个兄弟节点
+  getNextSibling() {
+    return this.rightSibling;
+  }
+
+  // 获取所有子节点
+  getChildren() {
+    const children = [];
+    let child = this.firstChild;
+    while (child) {
+      children.push(child);
+      child = child.rightSibling;
+    }
+    return children;
+  }
+
+  // 深度优先遍历
+  traverse(callback, order = 'pre') 
+  {
+    if (order === 'pre') callback(this.value);
+    
+    let child = this.firstChild;
+    while (child) 
+    {
+      child.traverse(callback, order);
+      child = child.rightSibling;
+    }
+    
+    if (order === 'post') callback(this.value);
+  }
+
+  // 查找节点
+  find(value) {
+    if (this.value === value) return this;
+    
+    let child = this.firstChild;
+    while (child) 
+    {
+      const found = child.find(value);
+      if (found) return found;
+      child = child.rightSibling;
+    }
+    
+    return null;
+  }
+  destroy() {
+      // 1. 递归销毁所有子节点
+      let child = this.firstChild;
+      while (child) {
+        const nextChild = child.rightSibling;
+        child.destroy(); // 递归销毁
+        child = nextChild;
+      }
+  
+      // 2. 断开与兄弟节点的链接
+      if (this.leftSibling) {
+        this.leftSibling.rightSibling = this.rightSibling;
+      }
+      if (this.rightSibling) {
+        this.rightSibling.leftSibling = this.leftSibling;
+      }
+  
+      // 3. 如果当前节点是父节点的firstChild，需要更新父节点指针
+      if (this.parent && this.parent.firstChild === this) {
+        this.parent.firstChild = this.rightSibling;
+      }
+  
+      // 4. 清空所有引用
+      this.parent = null;
+      this.firstChild = null;
+      this.leftSibling = null;
+      this.rightSibling = null;
+      this.value = null;
+      this.state = null;
+    }
+}
+
+
+const root = new ListNode('A', 'active');
+const childB = root.addChild('B', 'inactive');
+const childC = root.addChild('C', 'active');
+const grandChildD = childB.addChild('D', 'active');
+
+console.log(root.getNodeLevel('A'));  // 1（根节点）
+console.log(root.getNodeLevel('B'));  // 2
+console.log(root.getNodeLevel('D'));  // 3
+console.log(root.getNodeLevel('X'));  // -1（未找到）

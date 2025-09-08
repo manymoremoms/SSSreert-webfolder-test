@@ -1,0 +1,1885 @@
+{
+  "meta": {
+    "brightAuthorVersion": "1.63.2",
+    "buildType": "Standard"
+  },
+  "bsdm": {
+    "sign": {
+      "properties": {
+        "id": "47e4035f-84fd-4000-a7f0-2ef818ba1000",
+        "version": "1.3.10",
+        "name": "LS425_BOBCAT_V6",
+        "videoMode": "1920x1080x60p",
+        "size": {
+          "width": 1920,
+          "height": 1080
+        },
+        "model": "LS425",
+        "monitorOrientation": "Landscape",
+        "monitorOverscan": "NoOverscan",
+        "videoConnector": "HDMI",
+        "deviceWebPageDisplay": "Standard",
+        "backgroundScreenColor": {
+          "a": 255,
+          "r": 0,
+          "g": 0,
+          "b": 0
+        },
+        "forceResolution": false,
+        "tenBitColorEnabled": false,
+        "dolbyVisionEnabled": false,
+        "fullResGraphicsEnabled": false,
+        "audioConfiguration": "MixedAudioPCMCompressed",
+        "audioAutoLevel": false,
+        "htmlEnableJavascriptConsole": true,
+        "alphabetizeVariableNames": false,
+        "autoCreateMediaCounterVariables": false,
+        "resetVariablesOnPresentationStart": false,
+        "networkedVariablesUpdateInterval": 30,
+        "delayScheduleChangeUntilMediaEndEvent": false,
+        "language": "English",
+        "languageKey": "eng",
+        "flipCoordinates": false,
+        "inactivityTimeout": false,
+        "inactivityTime": 30,
+        "touchCursorDisplayMode": "Disabled",
+        "udpDestinationAddressType": "IPAddress",
+        "udpDestinationAddress": "255.255.255.255",
+        "udpDestinationPort": 5000,
+        "udpReceiverPort": 5000,
+        "enableEnhancedSynchronization": null,
+        "disableSettingsHandler": false,
+        "htmlEnableChromiumVideoPlayback": false,
+        "gpsConfiguration": "None",
+        "isMosaic": false,
+        "graphicsZOrder": "Back"
+      },
+      "serialPortConfigurations": [
+        {
+          "gps": false,
+          "port": "0",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "1",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "2",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "3",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "4",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "5",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "6",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        },
+        {
+          "gps": false,
+          "port": "7",
+          "baudRate": 115200,
+          "dataBits": 8,
+          "stopBits": 1,
+          "parity": "N",
+          "protocol": "ASCII",
+          "sendEol": "CR",
+          "receiveEol": "CR",
+          "invertSignals": false,
+          "connectedDevice": "None"
+        }
+      ],
+      "gpio": [
+        "output",
+        "output",
+        "output",
+        "output",
+        "input",
+        "input",
+        "input",
+        "input"
+      ],
+      "buttonPanels": {
+        "bp900a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp900d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200a": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200b": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200c": {
+          "configureAutomatically": true,
+          "configuration": 0
+        },
+        "bp200d": {
+          "configureAutomatically": true,
+          "configuration": 0
+        }
+      },
+      "irRemote": {
+        "irInConfiguration": {
+          "source": "Iguana"
+        },
+        "irOutConfiguration": {
+          "destination": "Iguana"
+        },
+        "irRemoteControl": {
+          "id": "RC-1002",
+          "encoding": "NEC",
+          "manufacturerCode": 28560,
+          "buttons": {
+            "0": {
+              "buttonCode": 0,
+              "buttonDescription": "Option"
+            },
+            "1": {
+              "buttonCode": 1,
+              "buttonDescription": "1"
+            },
+            "2": {
+              "buttonCode": 2,
+              "buttonDescription": "2"
+            },
+            "3": {
+              "buttonCode": 3,
+              "buttonDescription": "3"
+            },
+            "4": {
+              "buttonCode": 4,
+              "buttonDescription": "4"
+            },
+            "5": {
+              "buttonCode": 5,
+              "buttonDescription": "5"
+            },
+            "6": {
+              "buttonCode": 6,
+              "buttonDescription": "6"
+            },
+            "7": {
+              "buttonCode": 7,
+              "buttonDescription": "7"
+            },
+            "8": {
+              "buttonCode": 8,
+              "buttonDescription": "8"
+            },
+            "9": {
+              "buttonCode": 9,
+              "buttonDescription": "9"
+            },
+            "10": {
+              "buttonCode": 10,
+              "buttonDescription": "Exit"
+            },
+            "11": {
+              "buttonCode": 11,
+              "buttonDescription": "Channel Up"
+            },
+            "12": {
+              "buttonCode": 12,
+              "buttonDescription": "Period \".\""
+            },
+            "13": {
+              "buttonCode": 13,
+              "buttonDescription": "Channel Down"
+            },
+            "14": {
+              "buttonCode": 14,
+              "buttonDescription": "Source"
+            },
+            "15": {
+              "buttonCode": 15,
+              "buttonDescription": "Mute"
+            },
+            "16": {
+              "buttonCode": 16,
+              "buttonDescription": "Left"
+            },
+            "17": {
+              "buttonCode": 17,
+              "buttonDescription": "Right"
+            },
+            "18": {
+              "buttonCode": 18,
+              "buttonDescription": "Up"
+            },
+            "19": {
+              "buttonCode": 19,
+              "buttonDescription": "Down"
+            },
+            "20": {
+              "buttonCode": 20,
+              "buttonDescription": "Ok"
+            },
+            "21": {
+              "buttonCode": 21,
+              "buttonDescription": "Back"
+            },
+            "22": {
+              "buttonCode": 22,
+              "buttonDescription": "Power"
+            },
+            "23": {
+              "buttonCode": 23,
+              "buttonDescription": "Home"
+            },
+            "24": {
+              "buttonCode": 24,
+              "buttonDescription": "Search"
+            },
+            "25": {
+              "buttonCode": 25,
+              "buttonDescription": "Play"
+            },
+            "26": {
+              "buttonCode": 26,
+              "buttonDescription": "Fast Forward"
+            },
+            "27": {
+              "buttonCode": 27,
+              "buttonDescription": "Rewind"
+            },
+            "28": {
+              "buttonCode": 28,
+              "buttonDescription": "Pause"
+            },
+            "29": {
+              "buttonCode": 29,
+              "buttonDescription": "Add"
+            },
+            "30": {
+              "buttonCode": 30,
+              "buttonDescription": "Shuffle"
+            },
+            "31": {
+              "buttonCode": 31,
+              "buttonDescription": "Repeat"
+            },
+            "64": {
+              "buttonCode": 64,
+              "buttonDescription": "Volume Up"
+            },
+            "65": {
+              "buttonCode": 65,
+              "buttonDescription": "Volume Down"
+            },
+            "66": {
+              "buttonCode": 66,
+              "buttonDescription": "Brightness"
+            },
+            "67": {
+              "buttonCode": 67,
+              "buttonDescription": "Info"
+            },
+            "68": {
+              "buttonCode": 68,
+              "buttonDescription": "Green"
+            },
+            "69": {
+              "buttonCode": 69,
+              "buttonDescription": "0"
+            },
+            "70": {
+              "buttonCode": 70,
+              "buttonDescription": "Stop"
+            },
+            "71": {
+              "buttonCode": 71,
+              "buttonDescription": "Last"
+            },
+            "83": {
+              "buttonCode": 83,
+              "buttonDescription": "Red"
+            },
+            "84": {
+              "buttonCode": 84,
+              "buttonDescription": "Blue"
+            },
+            "87": {
+              "buttonCode": 87,
+              "buttonDescription": "Yellow"
+            }
+          }
+        }
+      },
+      "audioSignPropertyMap": {
+        "analog1": {
+          "min": 0,
+          "max": 100
+        },
+        "analog2": {
+          "min": 0,
+          "max": 100
+        },
+        "analog3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi1": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi2": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi3": {
+          "min": 0,
+          "max": 100
+        },
+        "hdmi4": {
+          "min": 0,
+          "max": 100
+        },
+        "spdif": {
+          "min": 0,
+          "max": 100
+        },
+        "usbA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbB": {
+          "min": 0,
+          "max": 100
+        },
+        "usbC": {
+          "min": 0,
+          "max": 100
+        },
+        "usbD": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeA": {
+          "min": 0,
+          "max": 100
+        },
+        "usbTypeC": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_6": {
+          "min": 0,
+          "max": 100
+        },
+        "usb700_7": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_1": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_2": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_3": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_4": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_5": {
+          "min": 0,
+          "max": 100
+        },
+        "usb_6": {
+          "min": 0,
+          "max": 100
+        }
+      },
+      "wssDeviceSpec": {},
+      "lastModifiedTime": "2025-08-29T04:12:13.543Z"
+    },
+    "zones": {
+      "zonesById": {
+        "667be4b2-cdc7-4000-ae91-b81790820000": {
+          "id": "667be4b2-cdc7-4000-ae91-b81790820000",
+          "name": "VideoLayer",
+          "type": "VideoOrImages",
+          "tag": "VI1",
+          "nonInteractive": false,
+          "initialMediaStateId": "b4a2ba89-73ba-4000-aa0a-8455f3fb9000",
+          "position": {
+            "width": 1920,
+            "height": 1080,
+            "x": 0,
+            "y": 0,
+            "pct": false
+          },
+          "properties": {
+            "viewMode": "Scale to Fill",
+            "videoVolume": 100,
+            "maxContentResolution": "HD",
+            "brightness": 128,
+            "contrast": 64,
+            "saturation": 64,
+            "hue": 0,
+            "zOrderFront": true,
+            "mosaic": false,
+            "audioOutput": "Analog",
+            "audioMode": "Stereo",
+            "audioMapping": "Audio1",
+            "audioOutputAssignments": {
+              "analog1": "None",
+              "analog2": "None",
+              "analog3": "None",
+              "usbA": "None",
+              "usbB": "None",
+              "usbC": "None",
+              "usbD": "None",
+              "usbTypeA": "None",
+              "usbTypeC": "None",
+              "usb700_1": "None",
+              "usb700_2": "None",
+              "usb700_3": "None",
+              "usb700_4": "None",
+              "usb700_5": "None",
+              "usb700_6": "None",
+              "usb700_7": "None",
+              "usb_1": "None",
+              "usb_2": "None",
+              "usb_3": "None",
+              "usb_4": "None",
+              "usb_5": "None",
+              "usb_6": "None",
+              "spdif": "Pcm",
+              "hdmi": "Pcm",
+              "hdmi1": "Pcm",
+              "hdmi2": "None",
+              "hdmi3": "None",
+              "hdmi4": "None"
+            },
+            "audioMixMode": "Stereo",
+            "audioVolume": 70,
+            "minimumVolume": 0,
+            "maximumVolume": 100,
+            "imageMode": "Scale to Fill"
+          }
+        },
+        "f0b49c9d-07a5-4000-aa2a-678a7ef7c000": {
+          "id": "f0b49c9d-07a5-4000-aa2a-678a7ef7c000",
+          "name": "Menu",
+          "type": "Images",
+          "tag": "VideoOrImages0",
+          "nonInteractive": false,
+          "initialMediaStateId": "0aa713b3-03c4-4000-accc-40df6a35e000",
+          "position": {
+            "width": 1920,
+            "height": 1080,
+            "x": 0,
+            "y": 0,
+            "pct": false
+          },
+          "properties": {
+            "imageMode": "Scale to Fill"
+          }
+        },
+        "4d27114d-a6e1-4000-aac7-a9eaf06e1000": {
+          "id": "4d27114d-a6e1-4000-aac7-a9eaf06e1000",
+          "name": "misc control",
+          "type": "Control",
+          "tag": "Control0",
+          "nonInteractive": false,
+          "initialMediaStateId": "0",
+          "position": {
+            "x": 480,
+            "y": 270,
+            "width": 960,
+            "height": 540,
+            "pct": false
+          },
+          "properties": {}
+        }
+      },
+      "allZones": [
+        "667be4b2-cdc7-4000-ae91-b81790820000",
+        "f0b49c9d-07a5-4000-aa2a-678a7ef7c000",
+        "4d27114d-a6e1-4000-aac7-a9eaf06e1000"
+      ],
+      "zoneLayersById": {
+        "6d9fa0c6-f5ef-4000-a3e6-d97db06fc000": {
+          "id": "6d9fa0c6-f5ef-4000-a3e6-d97db06fc000",
+          "type": "Graphics",
+          "zoneSequence": [
+            "667be4b2-cdc7-4000-ae91-b81790820000",
+            "f0b49c9d-07a5-4000-aa2a-678a7ef7c000"
+          ]
+        },
+        "6289b539-e167-4000-a6d1-5cef7c900000": {
+          "id": "6289b539-e167-4000-a6d1-5cef7c900000",
+          "type": "Audio",
+          "zoneSequence": []
+        },
+        "64f93d01-434d-4000-ad95-e15f7be37000": {
+          "id": "64f93d01-434d-4000-ad95-e15f7be37000",
+          "type": "Invisible",
+          "zoneSequence": []
+        },
+        "95185d78-e92b-4000-a553-eedbbc7d3000": {
+          "id": "95185d78-e92b-4000-a553-eedbbc7d3000",
+          "type": "Video",
+          "zoneSequence": [
+            "667be4b2-cdc7-4000-ae91-b81790820000"
+          ],
+          "zoneLayerSpecificProperties": {
+            "type": "HD",
+            "index": 0,
+            "sharedDecoder": false,
+            "enableMosaicDeinterlacer": false
+          }
+        }
+      },
+      "zoneLayerSequence": [
+        "6d9fa0c6-f5ef-4000-a3e6-d97db06fc000",
+        "95185d78-e92b-4000-a553-eedbbc7d3000"
+      ],
+      "zoneTagIndices": {
+        "667be4b2-cdc7-4000-ae91-b81790820000": 17,
+        "f0b49c9d-07a5-4000-aa2a-678a7ef7c000": 3,
+        "4d27114d-a6e1-4000-aac7-a9eaf06e1000": 4
+      }
+    },
+    "screens": {
+      "screensById": {},
+      "allScreens": []
+    },
+    "mediaStates": {
+      "mediaStatesById": {
+        "34a76b98-bea0-4000-a320-353abb482000": {
+          "id": "34a76b98-bea0-4000-a320-353abb482000",
+          "name": "BobCatMediaList",
+          "tag": "2",
+          "container": {
+            "id": "667be4b2-cdc7-4000-ae91-b81790820000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "BobCatMediaList",
+            "type": "MediaList",
+            "playbackType": "NextInList",
+            "startIndex": 0,
+            "shuffle": false,
+            "support4KImage": false,
+            "sendMediaZoneMessage": false,
+            "useDataFeed": false,
+            "dataFeedId": "0",
+            "transition": "No effect",
+            "transitionDuration": 1,
+            "autoTransitions": false,
+            "inactivityTimeout": false,
+            "inactivityTime": 0
+          }
+        },
+        "e89c3780-8b87-4000-a464-98227172a000": {
+          "id": "e89c3780-8b87-4000-a464-98227172a000",
+          "name": "MenuSite",
+          "tag": "1",
+          "container": {
+            "id": "f0b49c9d-07a5-4000-aa2a-678a7ef7c000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "MenuSite",
+            "type": "Html",
+            "siteId": "d519fc7f-0ee4-4000-adc0-1c65e7c07000",
+            "enableBrightSignJavascriptObjects": true,
+            "enableCrossDomainPolicyChecks": false,
+            "ignoreHttpsCertificateErrors": false,
+            "enableCamera": false,
+            "enableMouseEvents": true,
+            "displayCursor": false,
+            "hwzOn": true,
+            "useUserStylesheet": false,
+            "enableFileURLSharedStorage": true,
+            "enableHtmlURLSharedStorage": false
+          }
+        },
+        "0aa713b3-03c4-4000-accc-40df6a35e000": {
+          "id": "0aa713b3-03c4-4000-accc-40df6a35e000",
+          "name": "Event Handler",
+          "tag": "2",
+          "container": {
+            "id": "f0b49c9d-07a5-4000-aa2a-678a7ef7c000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Event Handler",
+            "type": "EventHandler",
+            "stopPlayback": false
+          }
+        },
+        "b4a2ba89-73ba-4000-aa0a-8455f3fb9000": {
+          "id": "b4a2ba89-73ba-4000-aa0a-8455f3fb9000",
+          "name": "Loading Screen.jpg",
+          "tag": "3",
+          "container": {
+            "id": "667be4b2-cdc7-4000-ae91-b81790820000",
+            "type": 0
+          },
+          "contentItem": {
+            "name": "Loading Screen.jpg",
+            "type": "Image",
+            "assetId": "908dfb5c-4bb5-4000-a1b9-31b67c87b000",
+            "useImageBuffer": false,
+            "videoPlayerRequired": false,
+            "defaultTransition": "No effect",
+            "transitionDuration": 1
+          }
+        },
+        "c8be194a-89d5-4000-a5a2-8d6870c0d000": {
+          "id": "c8be194a-89d5-4000-a5a2-8d6870c0d000",
+          "name": "bobcat-advantage-zero-turn-mowers-landing-page-overview_reduced.mp4",
+          "tag": "",
+          "container": {
+            "id": "34a76b98-bea0-4000-a320-353abb482000",
+            "type": 1
+          },
+          "contentItem": {
+            "name": "bobcat-advantage-zero-turn-mowers-landing-page-overview_reduced.mp4",
+            "type": "Video",
+            "assetId": "e4de118b-3583-4000-a924-d4b452131000",
+            "volume": 100,
+            "videoDisplayMode": "2D",
+            "automaticallyLoop": true
+          }
+        }
+      },
+      "sequencesByParentId": {
+        "34a76b98-bea0-4000-a320-353abb482000": {
+          "id": "34a76b98-bea0-4000-a320-353abb482000",
+          "parentType": 1,
+          "sequence": [
+            "c8be194a-89d5-4000-a5a2-8d6870c0d000"
+          ]
+        }
+      }
+    },
+    "events": {
+      "c9eed2da-dd25-4000-a8c8-b414624e5000": {
+        "id": "c9eed2da-dd25-4000-a8c8-b414624e5000",
+        "name": "Media List_ev_ev_ev",
+        "type": "MediaListEnd",
+        "mediaStateId": "34a76b98-bea0-4000-a320-353abb482000",
+        "disabled": false,
+        "data": null,
+        "action": "None"
+      },
+      "e1aa9e3c-ea2d-4000-a956-6824d4d18000": {
+        "id": "e1aa9e3c-ea2d-4000-a956-6824d4d18000",
+        "name": "Media End Event",
+        "type": "MediaEnd",
+        "mediaStateId": "34a76b98-bea0-4000-a320-353abb482000",
+        "disabled": false,
+        "data": null,
+        "action": "SeqFwd"
+      },
+      "1626f2e3-f6cb-4000-ace1-60b5d07ff000": {
+        "id": "1626f2e3-f6cb-4000-ace1-60b5d07ff000",
+        "name": "HTML 5_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "query.key.1.pressed",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "ea6c2a1e-25f3-4000-a411-bfcfbb4e0000": {
+        "id": "ea6c2a1e-25f3-4000-a411-bfcfbb4e0000",
+        "name": "HTML 5_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "query.key.2.pressed",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "33076a92-56d9-4000-af07-c481957c6000": {
+        "id": "33076a92-56d9-4000-af07-c481957c6000",
+        "name": "MenuSite_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "query.key.3.pressed",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "20ddc471-6d92-4000-a4f2-d68526ca9000": {
+        "id": "20ddc471-6d92-4000-a4f2-d68526ca9000",
+        "name": "MenuSite_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "query.key.4.pressed",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "d42d51bf-27d5-4000-acae-5384b446d000": {
+        "id": "d42d51bf-27d5-4000-acae-5384b446d000",
+        "name": "MenuSite_ev_ev",
+        "type": "Serial",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "port": "2",
+          "data": "query.key.0.release",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "1ca06719-e657-4000-a514-2b7c28ba7000": {
+        "id": "1ca06719-e657-4000-a514-2b7c28ba7000",
+        "name": "MenuSite_ev_ev",
+        "type": "RectangularTouch",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "region": {
+            "x": 0.3276450432,
+            "y": 0.4402730368,
+            "width": 1919.3447099136,
+            "height": 178.2491467584,
+            "pct": false
+          }
+        },
+        "action": "None"
+      },
+      "ea608818-1750-4000-a4e9-c2c48a12d000": {
+        "id": "ea608818-1750-4000-a4e9-c2c48a12d000",
+        "name": "Event Handler_ev_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "0aa713b3-03c4-4000-accc-40df6a35e000",
+        "disabled": false,
+        "data": {
+          "interval": 0.1
+        },
+        "action": "None"
+      },
+      "aee665a4-4a15-4000-a0fd-1e53eb8ef000": {
+        "id": "aee665a4-4a15-4000-a0fd-1e53eb8ef000",
+        "name": "MenuSite_ev_ev",
+        "type": "ZoneMessage",
+        "mediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+        "disabled": false,
+        "data": {
+          "data": "startbackdoor",
+          "assignInputToUserVariable": false,
+          "assignWildcardToUserVariable": false,
+          "userVariableToAssignInput": "0",
+          "userVariableToAssignWildcard": "0"
+        },
+        "action": "None"
+      },
+      "1e08bd5d-5794-4000-a799-58a96f04b000": {
+        "id": "1e08bd5d-5794-4000-a799-58a96f04b000",
+        "name": "Loading Screen.jpg_ev_ev",
+        "type": "Timer",
+        "mediaStateId": "b4a2ba89-73ba-4000-aa0a-8455f3fb9000",
+        "disabled": false,
+        "data": {
+          "interval": 6
+        },
+        "action": "None"
+      }
+    },
+    "transitions": {
+      "transitionsById": {
+        "962ce1ce-157f-4000-a73d-e553b34fb000": {
+          "id": "962ce1ce-157f-4000-a73d-e553b34fb000",
+          "name": "Media List_tr_ev",
+          "eventId": "c9eed2da-dd25-4000-a8c8-b414624e5000",
+          "targetMediaStateId": "34a76b98-bea0-4000-a320-353abb482000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "cc84b484-1b72-4000-a389-d5f7c9ef6000": {
+          "id": "cc84b484-1b72-4000-a389-d5f7c9ef6000",
+          "name": "Event Handler_tr_ev",
+          "eventId": "ea608818-1750-4000-a4e9-c2c48a12d000",
+          "targetMediaStateId": "e89c3780-8b87-4000-a464-98227172a000",
+          "type": "No effect",
+          "duration": 0
+        },
+        "3c66cc6b-ee5a-4000-a885-bb26f4742000": {
+          "id": "3c66cc6b-ee5a-4000-a885-bb26f4742000",
+          "name": "Loading Screen.jpg_ev_tr",
+          "eventId": "1e08bd5d-5794-4000-a799-58a96f04b000",
+          "targetMediaStateId": "34a76b98-bea0-4000-a320-353abb482000",
+          "type": "No effect",
+          "duration": 0
+        }
+      },
+      "sequencesByEventId": {}
+    },
+    "commands": {
+      "commandsById": {
+        "dcdaffec-3af1-4000-a7c5-ab6ffc883000": {
+          "id": "dcdaffec-3af1-4000-a7c5-ab6ffc883000",
+          "name": "Send plugin message",
+          "operations": [
+            {
+              "type": "sendPluginMessage",
+              "data": {
+                "pluginId": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "{\"KeyValue\":\"1\",\"KeyState\":\"pressed\"}"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "e3d49ed1-971f-4000-a14d-940ab9f70000"
+        },
+        "a320477a-bbbb-4000-a1e9-e00db0661000": {
+          "id": "a320477a-bbbb-4000-a1e9-e00db0661000",
+          "name": "Send plugin message",
+          "operations": [
+            {
+              "type": "sendPluginMessage",
+              "data": {
+                "pluginId": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "{\"KeyValue\":\"2\",\"KeyState\":\"pressed\"}"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "5237cd41-fc26-4000-a1ae-d8a4e1e82000"
+        },
+        "69f2a94b-e4c2-4000-ac0e-0675f641b000": {
+          "id": "69f2a94b-e4c2-4000-ac0e-0675f641b000",
+          "name": "Send plugin message",
+          "operations": [
+            {
+              "type": "sendPluginMessage",
+              "data": {
+                "pluginId": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "{\"KeyValue\":\"3\",\"KeyState\":\"pressed\"}"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "e593f640-de77-4000-a276-c1d7d62a2000"
+        },
+        "a15ff0ca-e100-4000-ac7b-73b3acee0000": {
+          "id": "a15ff0ca-e100-4000-ac7b-73b3acee0000",
+          "name": "Send plugin message",
+          "operations": [
+            {
+              "type": "sendPluginMessage",
+              "data": {
+                "pluginId": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "{\"KeyValue\":\"4\",\"KeyState\":\"pressed\"}"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "eae237af-8d54-4000-ad35-be7759823000"
+        },
+        "0b937286-20a9-4000-a364-14c8b2fca000": {
+          "id": "0b937286-20a9-4000-a364-14c8b2fca000",
+          "name": "Send plugin message",
+          "operations": [
+            {
+              "type": "sendPluginMessage",
+              "data": {
+                "pluginId": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+                "messageData": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "{\"KeyValue\":\"0\",\"KeyState\":\"release\"}"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "ceebb06c-3954-4000-a773-cc55f8ec0000"
+        },
+        "f84f4d52-f75e-4000-ac4e-ad2b719a1000": {
+          "id": "f84f4d52-f75e-4000-ac4e-ad2b719a1000",
+          "name": "Set zone volume",
+          "operations": [
+            {
+              "type": "setZoneVolume",
+              "data": {
+                "zoneId": "667be4b2-cdc7-4000-ae91-b81790820000",
+                "volume": {
+                  "type": "Number",
+                  "value": 100
+                }
+              }
+            }
+          ],
+          "sequenceId": "ed856973-0946-4000-ad26-4639db457000"
+        },
+        "6ca1164d-e091-4000-a3c6-37608ee8e000": {
+          "id": "6ca1164d-e091-4000-a3c6-37608ee8e000",
+          "name": "Set Variable",
+          "operations": [
+            {
+              "type": "setVariable",
+              "data": {
+                "userVariableId": "4fd596fe-3e19-4000-aa9a-6f8503da8000",
+                "userVariableValue": {
+                  "params": [
+                    {
+                      "type": "Text",
+                      "value": "true"
+                    }
+                  ]
+                }
+              }
+            }
+          ],
+          "sequenceId": "939b039b-59fd-4000-a1a9-1aba1d17f000"
+        }
+      },
+      "sequencesById": {
+        "e3d49ed1-971f-4000-a14d-940ab9f70000": {
+          "id": "e3d49ed1-971f-4000-a14d-940ab9f70000",
+          "type": "Event",
+          "parentId": "1626f2e3-f6cb-4000-ace1-60b5d07ff000",
+          "sequence": [
+            "dcdaffec-3af1-4000-a7c5-ab6ffc883000"
+          ]
+        },
+        "5237cd41-fc26-4000-a1ae-d8a4e1e82000": {
+          "id": "5237cd41-fc26-4000-a1ae-d8a4e1e82000",
+          "type": "Event",
+          "parentId": "ea6c2a1e-25f3-4000-a411-bfcfbb4e0000",
+          "sequence": [
+            "a320477a-bbbb-4000-a1e9-e00db0661000"
+          ]
+        },
+        "e593f640-de77-4000-a276-c1d7d62a2000": {
+          "id": "e593f640-de77-4000-a276-c1d7d62a2000",
+          "type": "Event",
+          "parentId": "33076a92-56d9-4000-af07-c481957c6000",
+          "sequence": [
+            "69f2a94b-e4c2-4000-ac0e-0675f641b000"
+          ]
+        },
+        "eae237af-8d54-4000-ad35-be7759823000": {
+          "id": "eae237af-8d54-4000-ad35-be7759823000",
+          "type": "Event",
+          "parentId": "20ddc471-6d92-4000-a4f2-d68526ca9000",
+          "sequence": [
+            "a15ff0ca-e100-4000-ac7b-73b3acee0000"
+          ]
+        },
+        "ceebb06c-3954-4000-a773-cc55f8ec0000": {
+          "id": "ceebb06c-3954-4000-a773-cc55f8ec0000",
+          "type": "Event",
+          "parentId": "d42d51bf-27d5-4000-acae-5384b446d000",
+          "sequence": [
+            "0b937286-20a9-4000-a364-14c8b2fca000"
+          ]
+        },
+        "ed856973-0946-4000-ad26-4639db457000": {
+          "id": "ed856973-0946-4000-ad26-4639db457000",
+          "type": "StateEntry",
+          "parentId": "b4a2ba89-73ba-4000-aa0a-8455f3fb9000",
+          "sequence": [
+            "f84f4d52-f75e-4000-ac4e-ad2b719a1000"
+          ]
+        },
+        "939b039b-59fd-4000-a1a9-1aba1d17f000": {
+          "id": "939b039b-59fd-4000-a1a9-1aba1d17f000",
+          "type": "Event",
+          "parentId": "aee665a4-4a15-4000-a0fd-1e53eb8ef000",
+          "sequence": [
+            "6ca1164d-e091-4000-a3c6-37608ee8e000"
+          ]
+        }
+      }
+    },
+    "userDefinedEvents": {
+      "userDefinedEventsById": {},
+      "sequence": []
+    },
+    "htmlSites": {
+      "d519fc7f-0ee4-4000-adc0-1c65e7c07000": {
+        "id": "d519fc7f-0ee4-4000-adc0-1c65e7c07000",
+        "type": "Hosted",
+        "name": "MenuSite",
+        "queryString": {
+          "params": []
+        },
+        "indexAssetId": "887c5fa5-fcb5-4000-a457-142bf248b000",
+        "enableNode": false
+      }
+    },
+    "nodeApps": {},
+    "dataFeeds": {
+      "feedsById": {
+        "5f84ba34-9cbc-4000-aefc-8e0c3c70b000": {
+          "id": "5f84ba34-9cbc-4000-aefc-8e0c3c70b000",
+          "name": "",
+          "feedSourceId": "08a9d8f3-a3a8-4000-a305-672aa045f000",
+          "usage": "Text",
+          "parserPlugin": "0",
+          "autoGenerateUserVariables": false,
+          "userVariableAccess": "Private"
+        }
+      },
+      "sourcesById": {
+        "08a9d8f3-a3a8-4000-a305-672aa045f000": {
+          "id": "08a9d8f3-a3a8-4000-a305-672aa045f000",
+          "type": "URLDataFeed",
+          "url": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "https://bsncloud.s3.amazonaws.com/LynxInnovation/Feeds/8b0ece96d440fdf914e56f4298df3868"
+              }
+            ]
+          },
+          "updateInterval": 30,
+          "useHeadRequest": false,
+          "refCount": 1
+        }
+      }
+    },
+    "userVariables": {
+      "variablesById": {
+        "01d32aa1-6c35-4000-aa6e-1107fb422000": {
+          "id": "01d32aa1-6c35-4000-aa6e-1107fb422000",
+          "name": "volume",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "50"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "3222c213-3fc8-4000-aada-85852ca57000": {
+          "id": "3222c213-3fc8-4000-aada-85852ca57000",
+          "name": "brightness",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "80"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "edbf3a66-206f-4000-a7d6-f20b976d1000": {
+          "id": "edbf3a66-206f-4000-a7d6-f20b976d1000",
+          "name": "tvPowerState",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "1"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "f00a5bd2-9662-4000-aea5-60cf0ed7b000": {
+          "id": "f00a5bd2-9662-4000-aea5-60cf0ed7b000",
+          "name": "automaticOn",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "0"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "8970f38f-bfdf-4000-a40f-b0c7b4709000": {
+          "id": "8970f38f-bfdf-4000-a40f-b0c7b4709000",
+          "name": "defaultVolume",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "50"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "a153f4f8-59b2-4000-a86b-cf1a6fe34000": {
+          "id": "a153f4f8-59b2-4000-a86b-cf1a6fe34000",
+          "name": "defaultBrightness",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "80"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "5bf964b1-8043-4000-abf1-b50dbac99000": {
+          "id": "5bf964b1-8043-4000-abf1-b50dbac99000",
+          "name": "ScheduleJson",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "{}"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "58d421ee-624d-4000-a633-b33e9eab8000": {
+          "id": "58d421ee-624d-4000-a633-b33e9eab8000",
+          "name": "rebootFlag",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "0"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "018259f7-14d2-4000-a793-98e605c97000": {
+          "id": "018259f7-14d2-4000-a793-98e605c97000",
+          "name": "network status",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "OFFLINE"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": true,
+          "dataFeedId": "5f84ba34-9cbc-4000-aefc-8e0c3c70b000",
+          "systemVariable": null,
+          "data": null
+        },
+        "4fd596fe-3e19-4000-aa9a-6f8503da8000": {
+          "id": "4fd596fe-3e19-4000-aa9a-6f8503da8000",
+          "name": "backdoor status",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "false"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        },
+        "f9cbb9ad-9837-4000-ab72-e5ac0237b000": {
+          "id": "f9cbb9ad-9837-4000-ab72-e5ac0237b000",
+          "name": "keep alive",
+          "defaultValue": {
+            "params": [
+              {
+                "type": "Text",
+                "value": "none"
+              }
+            ]
+          },
+          "access": "Private",
+          "isNetworked": false,
+          "dataFeedId": "0",
+          "systemVariable": null,
+          "data": null
+        }
+      },
+      "sequence": [
+        "01d32aa1-6c35-4000-aa6e-1107fb422000",
+        "3222c213-3fc8-4000-aada-85852ca57000",
+        "edbf3a66-206f-4000-a7d6-f20b976d1000",
+        "f00a5bd2-9662-4000-aea5-60cf0ed7b000",
+        "8970f38f-bfdf-4000-a40f-b0c7b4709000",
+        "a153f4f8-59b2-4000-a86b-cf1a6fe34000",
+        "5bf964b1-8043-4000-abf1-b50dbac99000",
+        "58d421ee-624d-4000-a633-b33e9eab8000",
+        "018259f7-14d2-4000-a793-98e605c97000",
+        "4fd596fe-3e19-4000-aa9a-6f8503da8000",
+        "f9cbb9ad-9837-4000-ab72-e5ac0237b000"
+      ]
+    },
+    "liveText": {
+      "itemsById": {},
+      "layersByCanvasId": {},
+      "dataFeedsByGroupId": {},
+      "canvasesById": {}
+    },
+    "deviceWebPages": {},
+    "scriptPlugins": {
+      "e0a5cd5e-736b-4000-a8a0-60a224d0a000": {
+        "id": "e0a5cd5e-736b-4000-a8a0-60a224d0a000",
+        "name": "htmlZoneMessage",
+        "assetId": "b3507765-ef6f-4000-a9d2-5f24aad04000"
+      }
+    },
+    "parserPlugins": {},
+    "videoModePlugins": {},
+    "auxiliaryFiles": {},
+    "linkedPresentations": {},
+    "partnerProducts": {},
+    "customAutorun": "0",
+    "bmapSpec": "0",
+    "assetMap": {
+      "b3507765-ef6f-4000-a9d2-5f24aad04000": {
+        "id": "b3507765-ef6f-4000-a9d2-5f24aad04000",
+        "name": "htmlZoneMessage.brs",
+        "path": "L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\plugins\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "BrightScript",
+        "scope": "c500536d5c5d015d",
+        "locator": "file://\\L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\plugins\\htmlZoneMessage.brs",
+        "fileSize": 14289,
+        "lastModifiedDate": "2025-06-16T07:36:04.462Z",
+        "refCount": 1
+      },
+      "908dfb5c-4bb5-4000-a1b9-31b67c87b000": {
+        "id": "908dfb5c-4bb5-4000-a1b9-31b67c87b000",
+        "name": "Loading Screen.jpg",
+        "path": "L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\graphics\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "c500536d5c5d015d",
+        "locator": "file://\\L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\graphics\\Loading Screen.jpg",
+        "mediaType": "Image",
+        "fileSize": 181662,
+        "lastModifiedDate": "2022-12-23T20:19:16.000Z",
+        "refCount": 1
+      },
+      "887c5fa5-fcb5-4000-a457-142bf248b000": {
+        "id": "887c5fa5-fcb5-4000-a457-142bf248b000",
+        "name": "menu.html",
+        "path": "L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\menu files\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "HtmlSite",
+        "scope": "c500536d5c5d015d",
+        "locator": "file://\\L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\Production Files\\Brightsign Files\\Presentation Files\\menu files\\menu.html",
+        "fileSize": 18925,
+        "lastModifiedDate": "2025-06-04T06:54:38.330Z",
+        "refCount": 1
+      },
+      "e4de118b-3583-4000-a924-d4b452131000": {
+        "id": "e4de118b-3583-4000-a924-d4b452131000",
+        "name": "bobcat-advantage-zero-turn-mowers-landing-page-overview_reduced.mp4",
+        "path": "L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\",
+        "networkId": 0,
+        "location": "Local",
+        "assetType": "Content",
+        "scope": "c500536d5c5d015d",
+        "locator": "file://\\L:\\Projects\\00-CLIENTS\\145-Bobcat\\006-Bobcat Monitor Outpost Display\\bobcat-advantage-zero-turn-mowers-landing-page-overview_reduced.mp4",
+        "mediaType": "Video",
+        "refCount": 1
+      }
+    },
+    "thumbnail": {
+      "type": "image/jpeg",
+      "data": "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",
+      "size": {
+        "width": 200,
+        "height": 112
+      },
+      "hash": "80d52b6127970b69446430fbaa8b4c7fc74a5dff"
+    }
+  },
+  "selection": {
+    "hovered": null,
+    "selectionContainer": {
+      "id": "PRESENTATION",
+      "type": "PRESENTATION",
+      "selectableType": "PRESENTATION"
+    },
+    "selectionEntities": {
+      "667be4b2-cdc7-4000-ae91-b81790820000": {
+        "id": "667be4b2-cdc7-4000-ae91-b81790820000",
+        "type": "ZONE",
+        "selectableType": "ZONE",
+        "selectableData": null
+      }
+    },
+    "prevSelectionEntities": {},
+    "isEventAdvancedEnabled": false,
+    "activeAssetMenuTab": "ASSETS"
+  },
+  "interactiveCanvas": {
+    "statePositionById": {
+      "34a76b98-bea0-4000-a320-353abb482000": {
+        "id": "34a76b98-bea0-4000-a320-353abb482000",
+        "position": {
+          "x": 687.0671997070312,
+          "y": 350.490234375
+        }
+      },
+      "e89c3780-8b87-4000-a464-98227172a000": {
+        "id": "e89c3780-8b87-4000-a464-98227172a000",
+        "position": {
+          "x": 659.9142456054688,
+          "y": 421.3028869628906
+        }
+      },
+      "14ba399b-e822-4000-ad86-daeeccccd000": {
+        "id": "14ba399b-e822-4000-ad86-daeeccccd000",
+        "position": {
+          "x": 894.5247802734375,
+          "y": 199.9950408935547
+        }
+      },
+      "2265d6e6-026d-4000-af7c-0e9449980000": {
+        "id": "2265d6e6-026d-4000-af7c-0e9449980000",
+        "position": {
+          "x": 846.0399780273438,
+          "y": 236.3577423095703
+        }
+      },
+      "0aa713b3-03c4-4000-accc-40df6a35e000": {
+        "id": "0aa713b3-03c4-4000-accc-40df6a35e000",
+        "position": {
+          "x": 660.2572937011719,
+          "y": 179.7647247314453
+        }
+      },
+      "6cb39e32-9e60-4000-a1ab-c60b19b69000": {
+        "id": "6cb39e32-9e60-4000-a1ab-c60b19b69000",
+        "position": {
+          "x": 672.7272338867188,
+          "y": 156.36366271972656
+        }
+      },
+      "34b99b98-4da7-4000-ac9f-ebd12f76b000": {
+        "id": "34b99b98-4da7-4000-ac9f-ebd12f76b000",
+        "position": {
+          "x": 655.3409423828125,
+          "y": 180.6060791015625
+        }
+      },
+      "be5ce8dc-b49d-4000-af09-03ecad061000": {
+        "id": "be5ce8dc-b49d-4000-af09-03ecad061000",
+        "position": {
+          "x": 539,
+          "y": 183.6666717529297
+        }
+      },
+      "b4a2ba89-73ba-4000-aa0a-8455f3fb9000": {
+        "id": "b4a2ba89-73ba-4000-aa0a-8455f3fb9000",
+        "position": {
+          "x": 689,
+          "y": 38
+        }
+      },
+      "a9e12946-205b-4000-a5be-4640135b8000": {
+        "id": "a9e12946-205b-4000-a5be-4640135b8000",
+        "position": {
+          "x": 1072.727294921875,
+          "y": 450.9090881347656
+        }
+      },
+      "05c23f90-2e46-4000-aed8-b76abfbce000": {
+        "id": "05c23f90-2e46-4000-aed8-b76abfbce000",
+        "position": {
+          "x": -179.92614555358887,
+          "y": 179.83646392822266
+        }
+      },
+      "552271c9-69b9-4000-a226-87dee7e16000": {
+        "id": "552271c9-69b9-4000-a226-87dee7e16000",
+        "position": {
+          "x": 179.07385444641113,
+          "y": 182.1697998046875
+        }
+      }
+    },
+    "eventDataById": {
+      "bc1b19d7-38d9-4000-a406-7f167a789000": {
+        "id": "bc1b19d7-38d9-4000-a406-7f167a789000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "c9eed2da-dd25-4000-a8c8-b414624e5000": {
+        "id": "c9eed2da-dd25-4000-a8c8-b414624e5000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1626f2e3-f6cb-4000-ace1-60b5d07ff000": {
+        "id": "1626f2e3-f6cb-4000-ace1-60b5d07ff000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ea6c2a1e-25f3-4000-a411-bfcfbb4e0000": {
+        "id": "ea6c2a1e-25f3-4000-a411-bfcfbb4e0000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "33076a92-56d9-4000-af07-c481957c6000": {
+        "id": "33076a92-56d9-4000-af07-c481957c6000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "20ddc471-6d92-4000-a4f2-d68526ca9000": {
+        "id": "20ddc471-6d92-4000-a4f2-d68526ca9000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "d42d51bf-27d5-4000-acae-5384b446d000": {
+        "id": "d42d51bf-27d5-4000-acae-5384b446d000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1ca06719-e657-4000-a514-2b7c28ba7000": {
+        "id": "1ca06719-e657-4000-a514-2b7c28ba7000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ea608818-1750-4000-a4e9-c2c48a12d000": {
+        "id": "ea608818-1750-4000-a4e9-c2c48a12d000",
+        "displayType": "Automatic",
+        "labelLocation": "Bottom"
+      },
+      "20a9c2c4-26af-4000-ad24-993fedf38000": {
+        "id": "20a9c2c4-26af-4000-ad24-993fedf38000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "2986ad54-75e1-4000-af20-d0acf6106000": {
+        "id": "2986ad54-75e1-4000-af20-d0acf6106000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "aee665a4-4a15-4000-a0fd-1e53eb8ef000": {
+        "id": "aee665a4-4a15-4000-a0fd-1e53eb8ef000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "1e08bd5d-5794-4000-a799-58a96f04b000": {
+        "id": "1e08bd5d-5794-4000-a799-58a96f04b000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c93b590c-b8bf-4000-a2b5-53d09091e000": {
+        "id": "c93b590c-b8bf-4000-a2b5-53d09091e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "0813312e-ebca-4000-a921-5a8e33077000": {
+        "id": "0813312e-ebca-4000-a921-5a8e33077000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "7dc84366-ee6c-4000-a1f2-847e47c84000": {
+        "id": "7dc84366-ee6c-4000-a1f2-847e47c84000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Right"
+      },
+      "80cd71f5-d3a7-4000-a5c4-80e359834000": {
+        "id": "80cd71f5-d3a7-4000-a5c4-80e359834000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "2007c012-aa27-4000-a328-de0072212000": {
+        "id": "2007c012-aa27-4000-a328-de0072212000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "fc154bbc-5048-4000-a86d-f486a68b0000": {
+        "id": "fc154bbc-5048-4000-a86d-f486a68b0000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ac1c5a90-4234-4000-ae48-3bb2f4a4d000": {
+        "id": "ac1c5a90-4234-4000-ae48-3bb2f4a4d000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "c52f66a0-573e-4000-a3f5-44291573e000": {
+        "id": "c52f66a0-573e-4000-a3f5-44291573e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "4f1d1403-11dd-4000-a08f-1c9e83f0e000": {
+        "id": "4f1d1403-11dd-4000-a08f-1c9e83f0e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "ac3e28ee-170c-4000-a674-545832414000": {
+        "id": "ac3e28ee-170c-4000-a674-545832414000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "0ff1554a-dd25-4000-a474-f77561197000": {
+        "id": "0ff1554a-dd25-4000-a474-f77561197000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "97727b58-9cae-4000-a1ad-61e61d6e2000": {
+        "id": "97727b58-9cae-4000-a1ad-61e61d6e2000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "b9115fad-2a60-4000-a250-e9ec9daff000": {
+        "id": "b9115fad-2a60-4000-a250-e9ec9daff000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "576668cf-69a8-4000-a3f7-328de546e000": {
+        "id": "576668cf-69a8-4000-a3f7-328de546e000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "5e6412fd-51dd-4000-a258-0a15d7c05000": {
+        "id": "5e6412fd-51dd-4000-a258-0a15d7c05000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "006e6549-e6f3-4000-ac76-cacfe6166000": {
+        "id": "006e6549-e6f3-4000-ac76-cacfe6166000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Bottom"
+      },
+      "de7d2124-8bd5-4000-ae6e-ebf04809d000": {
+        "id": "de7d2124-8bd5-4000-ae6e-ebf04809d000",
+        "displayType": "DisplayLabel",
+        "labelLocation": "Right"
+      }
+    },
+    "viewTransformByZoneId": {
+      "667be4b2-cdc7-4000-ae91-b81790820000": {
+        "x": -172.04334125069636,
+        "y": 134.08502921053196,
+        "k": 0.8705505632961249
+      },
+      "f0b49c9d-07a5-4000-aa2a-678a7ef7c000": {
+        "x": 659.3103969477952,
+        "y": 99.39975764274391,
+        "k": 0.7578582832551992
+      },
+      "5682b580-9022-4000-ac6a-30d8adfd9000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      },
+      "93a724f4-4914-4000-ab3c-ebbec7e05000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      },
+      "4d27114d-a6e1-4000-aac7-a9eaf06e1000": {
+        "x": -329.4790887973554,
+        "y": 275.7133059017911,
+        "k": 0.37892914162759944
+      },
+      "a6dd6ae9-eaeb-4000-a840-7e98d48ff000": {
+        "x": 413.5069261815122,
+        "y": 109.93766669638174,
+        "k": 0.5
+      },
+      "fcbcb7eb-1c02-4000-a36d-8346059f5000": {
+        "x": 0,
+        "y": 0,
+        "k": 1
+      },
+      "fd974477-e141-4000-ad58-fa43d5de7000": {
+        "x": -172.04334125069636,
+        "y": 134.08502921053196,
+        "k": 0.8705505632961249
+      },
+      "76c4e425-70b0-4000-a332-5f10f652f000": {
+        "x": 569.8507175518075,
+        "y": 122.20051636546339,
+        "k": 0.8705505632961242
+      }
+    },
+    "isLoaderEnabled": false
+  },
+  "eventMenu": {
+    "isOpen": true,
+    "showTitles": true
+  },
+  "liveText": {
+    "a714f43b-f858-4000-ae5a-b06a48a23000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 0,
+      "duplicateOffsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    },
+    "b659be3d-844a-4000-a73d-76d4b0cb9000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 0,
+      "duplicateOffsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    },
+    "8d685dc7-eafd-4000-a894-c97b79912000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 0,
+      "duplicateOffsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    },
+    "1e4b6cc3-34cf-4000-a251-20feef03d000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 0,
+      "duplicateOffsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    },
+    "37058a8f-9419-4000-a703-44babcd2a000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 570,
+      "duplicateOffsetY": 0,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    },
+    "a6a7c186-a290-4000-ac56-c03386088000": {
+      "isInitialPositionEnabled": true,
+      "initialPositionX": 100,
+      "initialPositionY": 100,
+      "isDuplicateOffsetEnabled": true,
+      "duplicateOffsetX": 0,
+      "duplicateOffsetY": 100,
+      "isGridLinesEnabled": false,
+      "verticalGridLineCount": 9,
+      "horizontalGridLineCount": 9
+    }
+  },
+  "screenLayoutSettings": {
+    "selectedLayoutId": null,
+    "screenCount": null,
+    "isLayoutBoundaryToggled": false,
+    "selectedBezel": null,
+    "isSnapToCanvasToggled": false
+  }
+}
